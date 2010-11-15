@@ -1,4 +1,4 @@
-=== Automatic Tag Link ===
+=== Automatic Term Links ===
 Contributors: William P. Davis
 Tags: tag,term,category,post,link,automatic
 Requires at least: 3.0
