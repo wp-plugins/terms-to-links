@@ -6,7 +6,7 @@ Tested up to: 3.0.1
 Stable tag: 0.1
 Author URI: http://wpdavis.com/
 
-This plugin will automatically link term names in your content to that term's page.
+This plugin will automatically link term names in your content to that term's detail page.
 
 == Description ==
 
