@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Automatic Term Links
-Description: This plugin will automatically links to terms in your content to that term's page. Can be used for tags, categories and custom taxonomies. Based on Chen Ju's Automatic Tag Links.
+Plugin Name: Terms to Links
+Description: This plugin will automatically links term names in your content to that term's page. Can be used for tags, categories and custom taxonomies. Based on Chen Ju's Automatic Tag Links.
 Version: 0.1
 Author: William P. Davis, Chen Ju
 Author URI: http://wpdavis.com

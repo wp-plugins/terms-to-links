@@ -1,4 +1,4 @@
-=== Automatic Term Links ===
+=== Terms to Links ===
 Contributors: William P. Davis
 Tags: tag,term,category,post,link,automatic
 Requires at least: 3.0
@@ -6,7 +6,7 @@ Tested up to: 3.0.1
 Stable tag: 0.1
 Author URI: http://wpdavis.com/
 
-This plugin will automatically links to terms in your content to that term's page.
+This plugin will automatically link term names in your content to that term's page.
 
 == Description ==
 
