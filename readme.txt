@@ -3,7 +3,7 @@ Contributors: William P. Davis
 Tags: tag,term,category,post,link,automatic
 Requires at least: 3.0
 Tested up to: 3.1
-Stable tag: 0.2
+Stable tag: 0.5
 Author URI: http://wpdavis.com
 
 This plugin will automatically link term names in your content to that term's detail page.
@@ -22,7 +22,7 @@ The plugin will only match full words, so if you have a term called "World" and 
 5. Select the taxonomies to link. 
 
 == Changelog ==
-= 0.2 =
+= 0.5 =
 * Auto-select tags and categories as the default links, so the site doesn't break.
 
 == Upcoming features ==

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Terms to Links
 Description: This plugin will automatically links term names in your content to that term's page. Can be used for tags, categories and custom taxonomies. Based on Chen Ju's Automatic Tag Links.
-Version: 0.2
+Version: 0.5
 Author: William P. Davis, Chen Ju
 Author URI: http://wpdavis.com
 
@@ -27,7 +27,7 @@ Author URI: http://wpdavis.com
 
 function terms_to_links_install() {
 	add_option("term2link_times", 1);
-	add_option('term2link_taxonomies','post_tag,category')
+	add_option('term2link_taxonomies','post_tag,category');
 }
 
 register_activation_hook(__FILE__,'terms_to_links_install');
