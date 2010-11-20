@@ -2,7 +2,7 @@
 /*
 Plugin Name: Terms to Links
 Description: This plugin will automatically links term names in your content to that term's page. Can be used for tags, categories and custom taxonomies. Based on Chen Ju's Automatic Tag Links.
-Version: 0.5
+Version: 0.6
 Author: William P. Davis, Chen Ju
 Author URI: http://wpdavis.com
 
@@ -50,7 +50,10 @@ function term2Link($content){
 		/*
 			Get all the terms
 		*/
-		$terms=get_terms( explode(',',get_option('term2link_taxonomies')) );
+		if (false === ($terms = get_transient('terms_to_links'))) {
+			 $terms=get_terms( explode(',',get_option('term2link_taxonomies')) );
+			 set_transient('terms_to_links', $terms, 60*60);
+		}
 		if($terms==null) return $content;
 		
 		usort($terms,'sortbylength');
